@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yu-Gi-Oh Card Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="game-title">Guess the Card</h1>
+
+  <div class="card" onclick="flipCard(this)">
+    <div class="front">
+      <img src="Kaiba.jpg" alt="Card Front Image">
+    </div>
+    <div class="back">
+      <img src="Back.jpg" alt="Card Back Image">
+    </div>
+  </div>
+
+  <div class="options">
+    <button onclick="checkAnswer(this)"></button>
+    <button onclick="checkAnswer(this)"></button>
+    <button onclick="checkAnswer(this)"></button>
+    <button onclick="checkAnswer(this)"></button>
+  </div>
+
+  <div class="result-message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
