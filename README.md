@@ -2,6 +2,8 @@
 simple web game
 #this is my first web game
 
+for best exp you must start with start.html
+
 
 only hav three choses for now
 but its easy to add other choses
